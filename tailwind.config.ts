@@ -7,7 +7,15 @@ export default {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'green-primary': '#1D3531',
+        'green-actived': '#5D8A83'
+      },
+      maxWidth: {
+        grid: '77.5rem'
+      }
+    },
   },
   plugins: [],
 } satisfies Config;
